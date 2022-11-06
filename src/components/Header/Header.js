@@ -19,8 +19,21 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+          }}
+        >
+          <span
+            style={{
+              marginLeft: 10,
+              marginTop: 7,
+              fontSize: 20,
+              fontWeight: "bold",
+            }}
+          >
             Sagar Bakshi
           </span>
         </a>
@@ -43,9 +56,9 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="https://blog.sagarbakshi.engineer">
+        <Link href="/blog">
           <NavLink>Blog</NavLink>
-        </a>
+        </Link>  
       </li>
     </Div2>
     <Div3>

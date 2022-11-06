@@ -1,17 +1,17 @@
 import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
+import { SiJava, SiFirebase, SiGit, SiNextDotJs, SiVmware } from "react-icons/si";
+import { AiFillCloud } from "react-icons/Ai";
 
 export const Skills = [
   {
     slug: "Cloud",
-    Component: DiAndroid,
+    Component: AiFillCloud,
     title: "Azure",
-    Description: () => <>I work on Azure Cloud, Linux & Automation</>,
+    Description: () => <>I work with multiple Cloud which includes Azure/AWS/Digital Ocean, Linux & Automation</>,
   },
   {
     slug: "nextjs",
-    Component: RiFlutterFill,
+    Component: SiNextDotJs,
     title: "NextJS",
     Description: () => (
       <>Currently learning NextJS & React for web development. </>
@@ -19,7 +19,7 @@ export const Skills = [
   },
   {
     slug: "vmware",
-    Component: SiJava,
+    Component: SiVmware,
     title: "Vmware",
     Description: () => (
       <>
